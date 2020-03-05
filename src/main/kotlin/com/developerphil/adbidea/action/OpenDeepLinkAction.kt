@@ -12,7 +12,7 @@ class OpenDeepLinkAction : AdbAction() {
                 "ADB Open Deep Link", Messages.getInformationIcon(), "", object : InputValidator {
 
             override fun checkInput(s: String): Boolean {
-                return !s.isNotBlank() && s.contains("://")
+                return s.isNotBlank() && s.contains("://")
             }
 
             override fun canClose(s: String): Boolean {
