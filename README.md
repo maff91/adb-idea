@@ -1,3 +1,7 @@
+Credits
+=======
+\[*maff91*\] Code for `ToggleTalkBackAction` and `OpenDeepLinkAction` was taken from https://github.com/PhilippNowak96/adb-idea abd translated into Kotlin in order to be integrated into latest code from the original repo. 
+
 ADB Idea
 ========
 

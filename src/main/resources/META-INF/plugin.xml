@@ -190,12 +190,23 @@
                     text="ADB Clear App Data and Restart"
                     description="Clears the private storage of the app and restarts it">
             </action>
+
+            <action id="com.developerphil.adbidea.action.OpenDeepLinkAction"
+                    class="com.developerphil.adbidea.action.OpenDeepLinkAction"
+                    text="ADB Open Deep Link"
+                    description="Opens a Deep Link of your choice">
+            </action>
+            <action id="com.developerphil.adbidea.action.ToggleTalkBackAction"
+                    class="com.developerphil.adbidea.action.ToggleTalkBackAction"
+                    text="ADB Toggle TalkBack"
+                    description="Tries to toggle TalkBack">
+            </action>
+
             <action id="com.developerphil.adbidea.action.StartWithDebuggerAction"
                     class="com.developerphil.adbidea.action.StartWithDebuggerAction"
                     text="ADB Start App With Debugger"
                     description="Starts the current application and attach the debugger">
             </action>
-
             <action id="com.developerphil.adbidea.action.RestartWithDebuggerAction"
                     class="com.developerphil.adbidea.action.RestartWithDebuggerAction"
                     text="ADB Restart App With Debugger"
